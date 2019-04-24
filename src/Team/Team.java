@@ -11,6 +11,7 @@ public class Team {
     }
 
     public void info(){
+        System.out.println("Название команды - " + name);
         for (Competitor c : com) {
             c.info();
         }
